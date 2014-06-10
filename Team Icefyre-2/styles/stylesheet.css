@@ -10,11 +10,18 @@ header{
     height:290px;
     background-color:#eed5b7;
 }
+nav{
+    position:absolute;
+    top:25%;
+    left:15%;
+    width:90%;
+    z-index:1;
+}
 nav > ul{
     width:90%;
     list-style-type:none;
     padding-top:20px;
-    padding-bottom:30px;
+    padding-bottom:20px;
 }
 nav > ul > li{
     position:relative;
@@ -90,16 +97,20 @@ nav ul li:hover #invisible{
     width:10%
 }
 #middle{
-    width:50%;
+    width:40%;
     padding-top:40px;
-    margin-left:10px;
+    margin-left:15%;
 }
 #right{
     float:right;
     position:absolute;
-    top:40px;
-    right:200px;
-    width:14%;
+    top:20px;
+    right:20px;
+    width:20%;
+    z-index:0;
+}
+#right::after{
+    float:none;
 }
 
 /*Sections*/
