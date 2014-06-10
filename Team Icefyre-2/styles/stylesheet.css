@@ -11,6 +11,7 @@ header{
     background-color:#eed5b7;
 }
 nav > ul{
+    width:90%;
     list-style-type:none;
     padding-top:20px;
     padding-bottom:30px;
@@ -86,8 +87,10 @@ nav ul li:hover #invisible{
     float:left;
     margin-top:20px;
     margin-right:10px;
+    width:10%
 }
 #middle{
+    width:50%;
     padding-top:40px;
     margin-left:10px;
 }
@@ -95,7 +98,8 @@ nav ul li:hover #invisible{
     float:right;
     position:absolute;
     top:40px;
-    right:0px;
+    right:200px;
+    width:14%;
 }
 
 /*Sections*/
