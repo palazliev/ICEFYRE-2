@@ -3,3 +3,8 @@ D:\KATYA\VisualStudio\Team-Icefyre2\Team-Icefyre2\bin\Team-Icefyre2.pdb
 D:\KATYA\VisualStudio\Team-Icefyre2\Team-Icefyre2\obj\Debug\Team-Icefyre2.csprojResolveAssemblyReference.cache
 D:\KATYA\VisualStudio\Team-Icefyre2\Team-Icefyre2\obj\Debug\Team-Icefyre2.dll
 D:\KATYA\VisualStudio\Team-Icefyre2\Team-Icefyre2\obj\Debug\Team-Icefyre2.pdb
+E:\Teamwork\ICEFYRE-2\Team-Icefyre2\Team-Icefyre2\bin\Team-Icefyre2.dll
+E:\Teamwork\ICEFYRE-2\Team-Icefyre2\Team-Icefyre2\bin\Team-Icefyre2.pdb
+E:\Teamwork\ICEFYRE-2\Team-Icefyre2\Team-Icefyre2\obj\Debug\Team-Icefyre2.csprojResolveAssemblyReference.cache
+E:\Teamwork\ICEFYRE-2\Team-Icefyre2\Team-Icefyre2\obj\Debug\Team-Icefyre2.dll
+E:\Teamwork\ICEFYRE-2\Team-Icefyre2\Team-Icefyre2\obj\Debug\Team-Icefyre2.pdb
