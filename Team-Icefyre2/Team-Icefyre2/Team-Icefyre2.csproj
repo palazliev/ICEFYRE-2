@@ -64,6 +64,7 @@
     <Content Include="index.html" />
     <Content Include="java.html" />
     <Content Include="students.html" />
+    <Content Include="styles\CSSabout.css" />
     <Content Include="styles\stylesheet.css" />
     <Content Include="team-project.html" />
     <Content Include="Web.config" />
