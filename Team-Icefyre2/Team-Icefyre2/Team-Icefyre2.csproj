@@ -61,15 +61,16 @@
     <Content Include="c-sharp.html" />
     <Content Include="certificates.html" />
     <Content Include="exams.html" />
-    <Content Include="foundation.html" />
     <Content Include="html-css.html" />
+<<<<<<< HEAD
     <Content Include="plans.html" />
     <Content Include="software university.html" />
+=======
+>>>>>>> 2f5711d8e91272191544d5581e53d2c88e4724e0
     <Content Include="index.html" />
     <Content Include="java.html" />
     <Content Include="students.html" />
     <Content Include="styles\CSSabout.css" />
-    <Content Include="styles\softuni.css" />
     <Content Include="styles\stylesheet.css" />
     <Content Include="team-project.html" />
     <Content Include="Web.config" />
