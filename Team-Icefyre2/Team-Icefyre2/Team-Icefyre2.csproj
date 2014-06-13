@@ -62,11 +62,10 @@
     <Content Include="certificates.html" />
     <Content Include="exams.html" />
     <Content Include="html-css.html" />
-<<<<<<< HEAD
+
     <Content Include="plans.html" />
     <Content Include="software university.html" />
-=======
->>>>>>> 2f5711d8e91272191544d5581e53d2c88e4724e0
+
     <Content Include="index.html" />
     <Content Include="java.html" />
     <Content Include="students.html" />
