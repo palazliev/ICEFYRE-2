@@ -59,9 +59,11 @@
   <ItemGroup>
     <Content Include="about-the-university.html" />
     <Content Include="c-sharp.html" />
+    <Content Include="certificates.html" />
     <Content Include="exams.html" />
     <Content Include="foundation.html" />
     <Content Include="html-css.html" />
+    <Content Include="plans.html" />
     <Content Include="software university.html" />
     <Content Include="index.html" />
     <Content Include="java.html" />
