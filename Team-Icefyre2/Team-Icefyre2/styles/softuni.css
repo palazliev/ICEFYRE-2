@@ -190,6 +190,11 @@ div{
 	margin-left:15%;
 	margin-right:15%;
 }
+div.contacts{
+	width:30%;
+	margin-left:35%;
+	margin-right:35%;
+}
 p{
 	margin-bottom:10px;
 	margin-top:10px;
@@ -200,7 +205,17 @@ p{
 span{
 	font-weight:bold;
 }
+span.orange{
+	color:orange;
+}
 ul li.text{
 	list-style-type:circle;
 	margin-left:5%;
+}
+img.icons{
+	margin:10px;
+}
+img.icons:hover{
+	border:solid;
+	border-color:transparent;
 }

@@ -61,6 +61,7 @@
     <Content Include="c-sharp.html" />
     <Content Include="certificates.html" />
     <Content Include="classrooms.html" />
+    <Content Include="contacts.html" />
     <Content Include="exams.html" />
     <Content Include="html-css.html" />
     <Content Include="plans.html" />
