@@ -62,15 +62,18 @@
     <Content Include="certificates.html" />
     <Content Include="classrooms.html" />
     <Content Include="contacts.html" />
+    <Content Include="demo.html" />
     <Content Include="exams.html" />
     <Content Include="html-css.html" />
     <Content Include="plans.html" />
     <Content Include="scholarships.html" />
+    <Content Include="scripts\respond.min.js" />
     <Content Include="software university.html" />
     <Content Include="index.html" />
     <Content Include="java.html" />
     <Content Include="students.html" />
     <Content Include="styles\CSSabout.css" />
+    <Content Include="styles\demo.css" />
     <Content Include="styles\softuni.css" />
     <Content Include="styles\students.css" />
     <Content Include="styles\stylesheet.css" />
@@ -90,7 +93,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="images\" />
-    <Folder Include="scripts\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
