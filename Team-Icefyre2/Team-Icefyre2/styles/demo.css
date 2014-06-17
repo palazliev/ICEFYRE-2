@@ -153,7 +153,12 @@ section {
     position: inherit;
     width: 70%;
 }
-
+    section h1{
+        font-size: 50px;
+        text-align: center;
+        padding-top: 10px;
+        color:#666666;
+    }
     section h2 {
         font-size: 24px;
         padding-top: 10px;
@@ -165,6 +170,7 @@ section {
         font-size: 20px;
         margin-top: 20px;
         text-align: center;
+        padding:5px;
     }
 
         section li:before {
@@ -173,10 +179,13 @@ section {
 
     section img {
         align-self: center;
-        margin-left: 25%;
-        margin-right: 25%;
+        margin-left: 20%;
+        margin-right: 20%;
         margin-top: 10px;
-        width: 50%;
+        width: 60%;
+    }
+    section img#bigger-height{
+        height:80%;
     }
 
     section:last-of-type {
