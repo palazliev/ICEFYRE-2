@@ -1,20 +1,40 @@
 ﻿<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html lang="en">
 <head>
+    <meta charset="utf-8" />
     <title>Изпити</title>
-    <link rel="stylesheet" href="styles/stylesheet.css" type="text/css" />
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
+    <link href="styles/demo.css" type="text/css" rel="stylesheet">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <script type='text/javascript' src='scripts/respond.min.js'></script>
 </head>
 <body>
-    <header>
-        <img src="images/programmer.jpg" alt="Logo" id="left"/>
-        <img src="images/quote.png" alt="Nakov's quote" id="middle"/>
-        <nav>
-            <ul>
-                <li>
-                    <a href="index.html">Начало</a>
-                </li>
-                <li>
-                    <a href="#">Курсове</a>
+    <div id="wrapper">
+        <header>
+            <div id="banner">
+                <img src="images/baner.png" alt="Baner" />
+            </div>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="index.html">Начало</a>
+                    </li>
+                    <li>
+                        <a href="students.html">Студенти</a>
+                    </li>
+                    <li>
+                        <a href="exams.html">Изпити</a>
+                    </li>
+                    <li>
+                        <a href="team-project.html">Отборен проект</a>
+                    </li>
+                    <li>
+                        <a href="about-the-university.html">За университета</a>
+                    </li>
+                    <li>
+                        <a href="#">Курсове</a>
                         <ul id="invisible">
                             <li>
                                 <a href="c-sharp.html">C#</a>
@@ -26,177 +46,160 @@
                                 <a href="html-css.html">HTML/CSS</a>
                             </li>
                         </ul>
-                </li>
-                <li>
-                    <a href="students.html">Студенти</a>
-                </li>
-                <li>
-                    <a href="exams.html">Изпити</a>
-                </li>
-                <li>
-                    <a href="team-project.html">Отборен проект</a>
-                </li>
-                <li>
-                    <a href="about-the-university.html">За университета</a>
-                </li>
-            </ul>
-        </nav>
-        <img src="images/nakov.png" alt="Nakov" id="right"/>
-    </header>
-    <hr class="middle-line"/>
-    <section>
-        <h2>Изпитите в СофтУни обикновено са много продължителни и мъчителни, като само най-добрите оцеляват след тях...</h2>
-        <article>
-            <ul>
-               <li>Когато се подготвяте за изпит...</li>
-            </ul>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <section id="main">
+            <h2>Изпитите в СофтУни обикновено са много продължителни и мъчителни, като само най-добрите оцеляват след тях...</h2>
+            <article>
+                <ul>
+                    <li>Когато се подготвяте за изпит...</li>
+                </ul>
                 <img src="images/exams/preparing.gif" alt="Preparing for exam" />
-        </article>
-        <hr />
-        <article>
-            <ul>
-               <li>Когато закъснявате за изпита...</li>
-            </ul>
+            </article>
+            <hr />
+            <article>
+                <ul>
+                    <li>Когато закъснявате за изпита...</li>
+                </ul>
                 <img src="images/exams/late-for-exam.gif" alt="Late for exam" />
-        </article>
-        <hr />
-        <article>
-            <ul>
-               <li>На влизане в залата...</li>
-            </ul>
+            </article>
+            <hr />
+            <article>
+                <ul>
+                    <li>На влизане в залата...</li>
+                </ul>
                 <img src="images/exams/entering.gif" alt="Entering" />
-        </article>
-        <hr />
-        <article>
-            <ul>
-               <li>Когато Наков ви каже, че задачите за много лесни...</li>
-            </ul>
+            </article>
+            <hr />
+            <article>
+                <ul>
+                    <li>Когато Наков ви каже, че задачите за много лесни...</li>
+                </ul>
                 <img src="images/exams/trap.gif" alt="Trap" />
-        </article>
-        <hr />
-        <article>
-            <ul>
-               <li>Когато видите пета задача от изпита по C#...</li>
-            </ul>
+            </article>
+            <hr />
+            <article>
+                <ul>
+                    <li>Когато видите пета задача от изпита по C#...</li>
+                </ul>
                 <img src="images/exams/seeing-tasks.gif" alt="Seeing tasks" />
-        </article>
-        <hr />
-        <article>
-            <ul>
-               <li>Лицето ви, когато видите задачите от изпита по Java...</li>
-            </ul>
+            </article>
+            <hr />
+            <article>
+                <ul>
+                    <li>Лицето ви, когато видите задачите от изпита по Java...</li>
+                </ul>
                 <img src="images/exams/face-java-exam.png" alt="Java exam" />
-        </article>
-        <hr />
-        <article>
-            <ul>
-               <li>Когато Judge ви дава само 20 точки за задачата...</li>
-            </ul>
+            </article>
+            <hr />
+            <article>
+                <ul>
+                    <li>Когато Judge ви дава само 20 точки за задачата...</li>
+                </ul>
                 <img src="images/exams/judge-20.gif" alt="20 pts" />
-        </article>
-        <hr />
-        <article>
-            <ul>
-               <li>Когато Judge ви дава 80 точки и се чудите защо...</li>
-            </ul>
+            </article>
+            <hr />
+            <article>
+                <ul>
+                    <li>Когато Judge ви дава 80 точки и се чудите защо...</li>
+                </ul>
                 <img src="images/exams/judge-80.gif" alt="80 pts" />
-        </article>
-        <hr />
-        <article>
-            <ul>
-               <li>Когато най-после получите 100 точки...</li>
-            </ul>
+            </article>
+            <hr />
+            <article>
+                <ul>
+                    <li>Когато най-после получите 100 точки...</li>
+                </ul>
                 <img src="images/exams/judge-100.gif" alt="100 pts" />
-        </article>
-        <hr />
-        <article>
-            <ul>
-               <li>Когато трябва да дебъгвате, за да си намерите грешката...</li>
-            </ul>
+            </article>
+            <hr />
+            <article>
+                <ul>
+                    <li>Когато трябва да дебъгвате, за да си намерите грешката...</li>
+                </ul>
                 <img src="images/exams/debug.gif" alt="Debug" />
-        </article>
-        <hr />
-        <article>
-            <ul>
-               <li>Когато излизате за почивка...</li>
-            </ul>
+            </article>
+            <hr />
+            <article>
+                <ul>
+                    <li>Когато излизате за почивка...</li>
+                </ul>
                 <img src="images/exams/during-the-break.gif" alt="Break" />
-        </article>
-        <hr />
-        <article>
-            <ul>
-               <li>Когато получите Compile Time Error...</li>
-            </ul>
+            </article>
+            <hr />
+            <article>
+                <ul>
+                    <li>Когато получите Compile Time Error...</li>
+                </ul>
                 <img src="images/exams/compile-time-error.gif" alt="Compile time error" />
-        </article>
-        <hr />
-        <article>
-            <ul>
-               <li>Когато си тръгвате по-рано, а другите още решават...</li>
-            </ul>
+            </article>
+            <hr />
+            <article>
+                <ul>
+                    <li>Когато си тръгвате по-рано, а другите още решават...</li>
+                </ul>
                 <img src="images/exams/leaving-early.gif" alt="Leaving early" />
-        </article>
-        <hr />
-        <article>
-            <ul>
-               <li>Когато някой друг си тръгва по-рано, а вие сте още на втора задача...</li>
-            </ul>
+            </article>
+            <hr />
+            <article>
+                <ul>
+                    <li>Когато някой друг си тръгва по-рано, а вие сте още на втора задача...</li>
+                </ul>
                 <img src="images/exams/someone-leaving-early.gif" alt="Leaving early" />
-        </article>
-        <hr />
-        <article>
-            <ul>
-               <li>Когато остават 5 минути, а вие не сте готови...</li>
-            </ul>
+            </article>
+            <hr />
+            <article>
+                <ul>
+                    <li>Когато остават 5 минути, а вие не сте готови...</li>
+                </ul>
                 <img src="images/exams/end-exam.gif" alt="5 minutes remaining" />
-        </article>
-        <hr />
-        <article>
-            <ul>
-               <li>Когато видите класирането в Judge и сте на 176 място...</li>
-            </ul>
+            </article>
+            <hr />
+            <article>
+                <ul>
+                    <li>Когато видите класирането в Judge и сте на 176 място...</li>
+                </ul>
                 <img src="images/exams/judge-results.gif" alt="Judge results" />
-        </article>
-        <hr />
-        <article>
-            <ul>
-               <li>Когато изпита приключи...</li>
-            </ul>
+            </article>
+            <hr />
+            <article>
+                <ul>
+                    <li>Когато изпита приключи...</li>
+                </ul>
                 <img src="images/exams/after-exam.gif" alt="After exam" />
-        </article>
-        <hr />
-        <article>
-            <ul>
-               <li>Когато ви кажат, че е имало по-лесен начин да се реши задачата...</li>
-            </ul>
+            </article>
+            <hr />
+            <article>
+                <ul>
+                    <li>Когато ви кажат, че е имало по-лесен начин да се реши задачата...</li>
+                </ul>
                 <img src="images/exams/finding-the-truth.gif" alt="Easier way to solve the task" />
-        </article>
-        <hr />
-        <article>
-            <ul>
-               <li>Когато приятелите ви разберат, че не сте решили най-лесната задача...</li>
-            </ul>
+            </article>
+            <hr />
+            <article>
+                <ul>
+                    <li>Когато приятелите ви разберат, че не сте решили най-лесната задача...</li>
+                </ul>
                 <img src="images/exams/poor-baby.gif" alt="Easiest task" />
-        </article>
-        <hr />
-        <article>
-            <ul>
-               <li>Когато видите авторските решения...</li>
-            </ul>
+            </article>
+            <hr />
+            <article>
+                <ul>
+                    <li>Когато видите авторските решения...</li>
+                </ul>
                 <img src="images/exams/author.gif" alt="Author" />
-        </article>
-        <hr />
-        <article>
-            <ul>
-               <li>Когато излезне класирането и оценката ви е 3.02...</li>
-            </ul>
+            </article>
+            <hr />
+            <article>
+                <ul>
+                    <li>Когато излезне класирането и оценката ви е 3.02...</li>
+                </ul>
                 <img src="images/exams/exam-result.gif" alt="Exam results" />
-        </article>
-        <hr />
-    </section>
-    <hr class="middle-line"/>
-    <footer>
-        <h2><span>Team Icefyre 2&copy;</span> &#8611; Всяка прилика с действителни лица и събития е умишлена и целенасочена!</h2>
-    </footer>
+            </article>
+            <hr />
+        </section>
+    </div>
 </body>
 </html>
