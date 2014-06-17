@@ -1,20 +1,40 @@
 ﻿<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html lang="en">
 <head>
+    <meta charset="utf-8" />
     <title>Отборен проект</title>
-    <link rel="stylesheet" href="styles/stylesheet.css" type="text/css" />
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
+    <link href="styles/demo.css" type="text/css" rel="stylesheet">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <script type='text/javascript' src='scripts/respond.min.js'></script>
 </head>
 <body>
-   <header>
-        <img src="images/programmer.jpg" alt="Logo" id="left"/>
-        <img src="images/quote.png" alt="Nakov's quote" id="middle"/>
-        <nav>
-            <ul>
-                <li>
-                    <a href="index.html">Начало</a>
-                </li>
-                <li>
-                    <a href="#">Курсове</a>
+    <div id="wrapper">
+        <header>
+            <div id="banner">
+                <img src="images/baner.png" alt="Baner" />
+            </div>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="index.html">Начало</a>
+                    </li>
+                    <li>
+                        <a href="students.html">Студенти</a>
+                    </li>
+                    <li>
+                        <a href="exams.html">Изпити</a>
+                    </li>
+                    <li>
+                        <a href="team-project.html">Отборен проект</a>
+                    </li>
+                    <li>
+                        <a href="about-the-university.html">За университета</a>
+                    </li>
+                    <li>
+                        <a href="#">Курсове</a>
                         <ul id="invisible">
                             <li>
                                 <a href="c-sharp.html">C#</a>
@@ -26,106 +46,89 @@
                                 <a href="html-css.html">HTML/CSS</a>
                             </li>
                         </ul>
-                </li>
-                <li>
-                    <a href="students.html">Студенти</a>
-                </li>
-                <li>
-                    <a href="exams.html">Изпити</a>
-                </li>
-                <li>
-                    <a href="team-project.html">Отборен проект</a>
-                </li>
-                <li>
-                    <a href="about-the-university.html">За университета</a>
-                </li>
-            </ul>
-        </nav>
-        <img src="images/nakov.png" alt="Nakov" id="right"/>
-    </header>
-    <hr class="middle-line"/>
-    <section>
-        <h2>Отборните проекти обикновено протичат така...</h2>
-        <article>
-            <ul>
-               <li>Когато системата ви попита дали искате да участвате в отборен проект...</li>
-            </ul>
-                <img src="images/team-project/acceptance.gif" alt="Yes or No" />
-        </article>
-        <hr />
-        <article>
-            <ul>
-               <li>Когато си паснете с някой от съотборниците...</li>
-            </ul>
-                <img src="images/team-project/friends.gif" alt="Friends" />
-        </article>
-        <hr />
-         <article>
-            <ul>
-               <li>Когато търсите някой от отбора по e-mail...</li>
-            </ul>
-                <img src="images/team-project/looking-for.gif" alt="Looking for" />
-        </article>
-        <hr />
-        <article>
-            <ul>
-               <li>Когато обяснявате какви са вашите идеи...</li>
-            </ul>
-                <img src="images/team-project/ideas.gif" alt="Ideas" />
-        </article>
-        <hr />
-        <article>
-            <ul>
-               <li>Когато съотборниците ви не се съгласяват с идеите ви...</li>
-            </ul>
-                <img src="images/team-project/team-mates.gif" alt="Your ideas" />
-        </article>
-        <hr />
-        <article>
-            <ul>
-               <li>Когато вие не се съгласявате с идеите на другите...</li>
-            </ul>
-                <img src="images/team-project/others-ideas.gif" alt="Other's ideas" />
-        </article>
-        <hr />
-        <article>
-            <ul>
-               <li>Когато качвате код едновременно в GitHub...</li>
-            </ul>
-                <img src="images/team-project/git-commit.gif" alt="Git" />
-        </article>
-        <hr />
-        <article>
-            <ul>
-               <li>Когато имате чувството, че само вие работите по проекта...</li>
-            </ul>
-                <img src="images/team-project/marc-jacobs.png" alt="Jacobs" />
-        </article>
-        <hr />
-        <article>
-            <ul>
-               <li>Когато някой от отбора не си е свършил задачата навреме...</li>
-            </ul>
-                <img src="images/team-project/magician.gif" alt="Magician" />
-        </article>
-        <hr />
-        <article>
-            <ul>
-               <li>Когато изкарате слаба оценка от проекта...</li>
-            </ul>
-                <img src="images/team-project/bad-grade.gif" alt="Bad grade" />
-        </article>
-        <hr />
-        <article>
-            <ul>
-               <li>Когато оценката ви е 10/10...</li>
-            </ul>
-                <img src="images/team-project/miami-heat.gif" alt="Final grade" />
-        </article>
-    </section>
-    <hr class="middle-line"/>
-    <footer>
-        <h2><span>Team Icefyre 2&copy;</span> &#8611; Всяка прилика с действителни лица и събития е умишлена и целенасочена!</h2>
-    </footer>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <section id="main">
+            <h2>Отборните проекти обикновено протичат така...</h2>
+            <article>
+                <ul>
+                   <li>Когато системата ви попита дали искате да участвате в отборен проект...</li>
+                </ul>
+                    <img src="images/team-project/acceptance.gif" alt="Yes or No" />
+            </article>
+            <hr />
+            <article>
+                <ul>
+                   <li>Когато си паснете с някой от съотборниците...</li>
+                </ul>
+                    <img src="images/team-project/friends.gif" alt="Friends" />
+            </article>
+            <hr />
+             <article>
+                <ul>
+                   <li>Когато търсите някой от отбора по e-mail...</li>
+                </ul>
+                    <img src="images/team-project/looking-for.gif" alt="Looking for" />
+            </article>
+            <hr />
+            <article>
+                <ul>
+                   <li>Когато обяснявате какви са вашите идеи...</li>
+                </ul>
+                    <img src="images/team-project/ideas.gif" alt="Ideas" />
+            </article>
+            <hr />
+            <article>
+                <ul>
+                   <li>Когато съотборниците ви не се съгласяват с идеите ви...</li>
+                </ul>
+                    <img src="images/team-project/team-mates.gif" alt="Your ideas" />
+            </article>
+            <hr />
+            <article>
+                <ul>
+                   <li>Когато вие не се съгласявате с идеите на другите...</li>
+                </ul>
+                    <img src="images/team-project/others-ideas.gif" alt="Other's ideas" />
+            </article>
+            <hr />
+            <article>
+                <ul>
+                   <li>Когато качвате код едновременно в GitHub...</li>
+                </ul>
+                    <img src="images/team-project/git-commit.gif" alt="Git" />
+            </article>
+            <hr />
+            <article>
+                <ul>
+                   <li>Когато имате чувството, че само вие работите по проекта...</li>
+                </ul>
+                    <img src="images/team-project/marc-jacobs.png" alt="Jacobs" />
+            </article>
+            <hr />
+            <article>
+                <ul>
+                   <li>Когато някой от отбора не си е свършил задачата навреме...</li>
+                </ul>
+                    <img src="images/team-project/magician.gif" alt="Magician" />
+            </article>
+            <hr />
+            <article>
+                <ul>
+                   <li>Когато изкарате слаба оценка от проекта...</li>
+                </ul>
+                    <img src="images/team-project/bad-grade.gif" alt="Bad grade" />
+            </article>
+            <hr />
+            <article>
+                <ul>
+                   <li>Когато оценката ви е 10/10...</li>
+                </ul>
+                    <img src="images/team-project/miami-heat.gif" alt="Final grade" />
+            </article>
+        </section>
+    </div>
 </body>
 </html>
