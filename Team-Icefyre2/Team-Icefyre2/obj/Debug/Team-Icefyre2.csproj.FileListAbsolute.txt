@@ -14,3 +14,9 @@ D:\_GeorgiZStoyanov\GitHub\SoftUni\ICEFYRE-2\Team-Icefyre2\Team-Icefyre2\bin\Tea
 D:\_GeorgiZStoyanov\GitHub\SoftUni\ICEFYRE-2\Team-Icefyre2\Team-Icefyre2\obj\Debug\Team-Icefyre2.csprojResolveAssemblyReference.cache
 D:\_GeorgiZStoyanov\GitHub\SoftUni\ICEFYRE-2\Team-Icefyre2\Team-Icefyre2\obj\Debug\Team-Icefyre2.dll
 D:\_GeorgiZStoyanov\GitHub\SoftUni\ICEFYRE-2\Team-Icefyre2\Team-Icefyre2\obj\Debug\Team-Icefyre2.pdb
+C:\Users\Karmichle\Documents\ICEFYRE-2\Team-Icefyre2\Team-Icefyre2\bin\Team-Icefyre2.dll.config
+C:\Users\Karmichle\Documents\ICEFYRE-2\Team-Icefyre2\Team-Icefyre2\bin\Team-Icefyre2.dll
+C:\Users\Karmichle\Documents\ICEFYRE-2\Team-Icefyre2\Team-Icefyre2\bin\Team-Icefyre2.pdb
+C:\Users\Karmichle\Documents\ICEFYRE-2\Team-Icefyre2\Team-Icefyre2\obj\Debug\Team-Icefyre2.csprojResolveAssemblyReference.cache
+C:\Users\Karmichle\Documents\ICEFYRE-2\Team-Icefyre2\Team-Icefyre2\obj\Debug\Team-Icefyre2.dll
+C:\Users\Karmichle\Documents\ICEFYRE-2\Team-Icefyre2\Team-Icefyre2\obj\Debug\Team-Icefyre2.pdb
