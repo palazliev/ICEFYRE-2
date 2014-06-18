@@ -1,30 +1,5 @@
-D:\KATYA\VisualStudio\Team-Icefyre2\Team-Icefyre2\bin\Team-Icefyre2.dll
-D:\KATYA\VisualStudio\Team-Icefyre2\Team-Icefyre2\bin\Team-Icefyre2.pdb
-D:\KATYA\VisualStudio\Team-Icefyre2\Team-Icefyre2\obj\Debug\Team-Icefyre2.csprojResolveAssemblyReference.cache
-D:\KATYA\VisualStudio\Team-Icefyre2\Team-Icefyre2\obj\Debug\Team-Icefyre2.dll
-D:\KATYA\VisualStudio\Team-Icefyre2\Team-Icefyre2\obj\Debug\Team-Icefyre2.pdb
-E:\Teamwork\ICEFYRE-2\Team-Icefyre2\Team-Icefyre2\bin\Team-Icefyre2.dll
-E:\Teamwork\ICEFYRE-2\Team-Icefyre2\Team-Icefyre2\bin\Team-Icefyre2.pdb
-E:\Teamwork\ICEFYRE-2\Team-Icefyre2\Team-Icefyre2\obj\Debug\Team-Icefyre2.csprojResolveAssemblyReference.cache
-E:\Teamwork\ICEFYRE-2\Team-Icefyre2\Team-Icefyre2\obj\Debug\Team-Icefyre2.dll
-E:\Teamwork\ICEFYRE-2\Team-Icefyre2\Team-Icefyre2\obj\Debug\Team-Icefyre2.pdb
-D:\_GeorgiZStoyanov\GitHub\SoftUni\ICEFYRE-2\Team-Icefyre2\Team-Icefyre2\bin\Team-Icefyre2.dll.config
-D:\_GeorgiZStoyanov\GitHub\SoftUni\ICEFYRE-2\Team-Icefyre2\Team-Icefyre2\bin\Team-Icefyre2.dll
-D:\_GeorgiZStoyanov\GitHub\SoftUni\ICEFYRE-2\Team-Icefyre2\Team-Icefyre2\bin\Team-Icefyre2.pdb
-D:\_GeorgiZStoyanov\GitHub\SoftUni\ICEFYRE-2\Team-Icefyre2\Team-Icefyre2\obj\Debug\Team-Icefyre2.csprojResolveAssemblyReference.cache
-D:\_GeorgiZStoyanov\GitHub\SoftUni\ICEFYRE-2\Team-Icefyre2\Team-Icefyre2\obj\Debug\Team-Icefyre2.dll
-D:\_GeorgiZStoyanov\GitHub\SoftUni\ICEFYRE-2\Team-Icefyre2\Team-Icefyre2\obj\Debug\Team-Icefyre2.pdb
-<<<<<<< HEAD
-C:\Users\Karmichle\Documents\ICEFYRE-2\Team-Icefyre2\Team-Icefyre2\bin\Team-Icefyre2.dll.config
-C:\Users\Karmichle\Documents\ICEFYRE-2\Team-Icefyre2\Team-Icefyre2\bin\Team-Icefyre2.dll
-C:\Users\Karmichle\Documents\ICEFYRE-2\Team-Icefyre2\Team-Icefyre2\bin\Team-Icefyre2.pdb
-C:\Users\Karmichle\Documents\ICEFYRE-2\Team-Icefyre2\Team-Icefyre2\obj\Debug\Team-Icefyre2.csprojResolveAssemblyReference.cache
-C:\Users\Karmichle\Documents\ICEFYRE-2\Team-Icefyre2\Team-Icefyre2\obj\Debug\Team-Icefyre2.dll
-C:\Users\Karmichle\Documents\ICEFYRE-2\Team-Icefyre2\Team-Icefyre2\obj\Debug\Team-Icefyre2.pdb
-=======
-C:\Users\lucky\Documents\GitHub\ICEFYRE-2\Team-Icefyre2\Team-Icefyre2\bin\Team-Icefyre2.dll
-C:\Users\lucky\Documents\GitHub\ICEFYRE-2\Team-Icefyre2\Team-Icefyre2\bin\Team-Icefyre2.pdb
-C:\Users\lucky\Documents\GitHub\ICEFYRE-2\Team-Icefyre2\Team-Icefyre2\obj\Debug\Team-Icefyre2.csprojResolveAssemblyReference.cache
-C:\Users\lucky\Documents\GitHub\ICEFYRE-2\Team-Icefyre2\Team-Icefyre2\obj\Debug\Team-Icefyre2.dll
-C:\Users\lucky\Documents\GitHub\ICEFYRE-2\Team-Icefyre2\Team-Icefyre2\obj\Debug\Team-Icefyre2.pdb
->>>>>>> f7b27521315bdbd253b3827f4c0a871e2637cd28
+D:\SoftUni\HtmlCssProject\trunk\Team-Icefyre2\Team-Icefyre2\bin\Team-Icefyre2.dll
+D:\SoftUni\HtmlCssProject\trunk\Team-Icefyre2\Team-Icefyre2\bin\Team-Icefyre2.pdb
+D:\SoftUni\HtmlCssProject\trunk\Team-Icefyre2\Team-Icefyre2\obj\Debug\Team-Icefyre2.csprojResolveAssemblyReference.cache
+D:\SoftUni\HtmlCssProject\trunk\Team-Icefyre2\Team-Icefyre2\obj\Debug\Team-Icefyre2.dll
+D:\SoftUni\HtmlCssProject\trunk\Team-Icefyre2\Team-Icefyre2\obj\Debug\Team-Icefyre2.pdb
