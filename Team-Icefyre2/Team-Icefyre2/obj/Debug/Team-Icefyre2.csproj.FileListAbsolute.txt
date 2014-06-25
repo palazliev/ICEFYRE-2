@@ -3,3 +3,8 @@ D:\SoftUni\HtmlCssProject\trunk\Team-Icefyre2\Team-Icefyre2\bin\Team-Icefyre2.pd
 D:\SoftUni\HtmlCssProject\trunk\Team-Icefyre2\Team-Icefyre2\obj\Debug\Team-Icefyre2.csprojResolveAssemblyReference.cache
 D:\SoftUni\HtmlCssProject\trunk\Team-Icefyre2\Team-Icefyre2\obj\Debug\Team-Icefyre2.dll
 D:\SoftUni\HtmlCssProject\trunk\Team-Icefyre2\Team-Icefyre2\obj\Debug\Team-Icefyre2.pdb
+D:\SoftUni\New folder\trunk\Team-Icefyre2\Team-Icefyre2\bin\Team-Icefyre2.dll
+D:\SoftUni\New folder\trunk\Team-Icefyre2\Team-Icefyre2\bin\Team-Icefyre2.pdb
+D:\SoftUni\New folder\trunk\Team-Icefyre2\Team-Icefyre2\obj\Debug\Team-Icefyre2.csprojResolveAssemblyReference.cache
+D:\SoftUni\New folder\trunk\Team-Icefyre2\Team-Icefyre2\obj\Debug\Team-Icefyre2.dll
+D:\SoftUni\New folder\trunk\Team-Icefyre2\Team-Icefyre2\obj\Debug\Team-Icefyre2.pdb

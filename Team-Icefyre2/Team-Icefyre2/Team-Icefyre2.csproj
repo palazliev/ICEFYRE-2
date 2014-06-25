@@ -67,6 +67,7 @@
     <Content Include="html-css.html" />
     <Content Include="plans.html" />
     <Content Include="scholarships.html" />
+    <Content Include="scripts\fallingOnesZeros.js" />
     <Content Include="scripts\respond.min.js" />
     <Content Include="software university.html" />
     <Content Include="index.html" />
