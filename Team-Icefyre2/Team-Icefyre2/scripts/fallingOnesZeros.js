@@ -18,8 +18,8 @@ var x_mv = new Array();
 var crds = new Array();
 var lftrght = new Array();
 var browserinfos = navigator.userAgent;
-var ie5 = document.all && document.getElementById && !browserinfos.match(/Opera/);
-var ns6 = document.getElementById && !document.all;
+var ie5 = document.all && document.getElementById && !browserinfos.match(/Opera/) + "px";;
+var ns6 = document.getElementById && !document.all + "px";;
 var opera = browserinfos.match(/Opera/);
 var browserok = ie5 || ns6 || opera;
 
