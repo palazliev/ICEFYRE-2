@@ -1,7 +1,7 @@
 ﻿var digitmax = 35
 var digitcolor = new Array("#aaaacc", "#ddddFF", "#ccccDD")
 var digittype = new Array("Arial Black", "Arial Narrow", "Times", "Comic Sans MS");
-var sinkspeed = 0.6;
+var sinkspeed = 1;
 
 var digitmaxsize = 22;
 
@@ -40,11 +40,11 @@ function digitLetterMaker() {
 
 function initdigit() {
     if (ie5 || opera) {
-        marginbottom = document.body.clientHeight;
+        marginbottom = document.body.scrollHeight;
         marginright = document.body.clientWidth;
     }
     else if (ns6) {
-        marginbottom = window.innerHeight;
+        marginbottom = document.body.scrollHeight;
         marginright = window.innerWidth;
     }
     var digitsizerange = digitmaxsize - digitminsize;
