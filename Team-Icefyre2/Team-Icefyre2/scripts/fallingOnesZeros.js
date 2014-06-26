@@ -1,7 +1,7 @@
-﻿var digitmax = 40;
+﻿var digitmax = 35
 var digitcolor = new Array("#aaaacc", "#ddddFF", "#ccccDD")
 var digittype = new Array("Arial Black", "Arial Narrow", "Times", "Comic Sans MS");
-var sinkspeed = 1;
+var sinkspeed = 0.6;
 
 var digitmaxsize = 22;
 
@@ -18,8 +18,8 @@ var x_mv = new Array();
 var crds = new Array();
 var lftrght = new Array();
 var browserinfos = navigator.userAgent;
-var ie5 = document.all && document.getElementById && !browserinfos.match(/Opera/) + "px";;
-var ns6 = document.getElementById && !document.all + "px";;
+var ie5 = document.all && document.getElementById && !browserinfos.match(/Opera/);
+var ns6 = document.getElementById && !document.all;
 var opera = browserinfos.match(/Opera/);
 var browserok = ie5 || ns6 || opera;
 
@@ -40,11 +40,11 @@ function digitLetterMaker() {
 
 function initdigit() {
     if (ie5 || opera) {
-        marginbottom = document.body.scrollHeight;
+        marginbottom = document.body.clientHeight;
         marginright = document.body.clientWidth;
     }
     else if (ns6) {
-        marginbottom = document.body.scrollHeight
+        marginbottom = window.innerHeight;
         marginright = window.innerWidth;
     }
     var digitsizerange = digitmaxsize - digitminsize;
@@ -73,8 +73,8 @@ function movedigit() {
     for (i = 0; i <= digitmax; i++) {
         crds[i] += x_mv[i];
         digit[i].posy += digit[i].sink;
-        digit[i].style.left = digit[i].posx + lftrght[i] * Math.sin(crds[i]);
-        digit[i].style.top = digit[i].posy;
+        digit[i].style.left = digit[i].posx + lftrght[i] * Math.sin(crds[i]) + "px";
+        digit[i].style.top = digit[i].posy + "px";
 
         if (digit[i].posy >= marginbottom - 6 * digit[i].size || parseInt(digit[i].style.left) > (marginright - 3 * lftrght[i])) {
             if (snowingzone == 1) { digit[i].posx = randommaker(marginright - digit[i].size) }
