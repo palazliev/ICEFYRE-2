@@ -73,6 +73,7 @@ footer, header, hgroup, menu, nav, section {
 #main {
     float: left;
     width: 70%;
+    margin-bottom:3%;
 }
 
 #banner {
@@ -196,6 +197,26 @@ section {
 header nav ul li:hover a, #invisible li:hover a:hover {
     background: #D35400;
 }
+/* Footer */
+footer{
+    padding:1%;
+    padding-bottom:2%;
+    width: 100%;
+    background-color: #FFE4C5;
+    clear: both;
+    position: relative;
+    z-index: 10;
+    height: 2%;
+    margin-bottom: -15px;
+}
+    footer img{
+        display:inline-block;
+        float:right;
+        margin:1%;
+    }
+    footer span{
+        font-size:26px;
+    }
 
 /* Media Queries */
 @media screen and (max-width:910px) {
@@ -226,6 +247,10 @@ header nav ul li:hover a, #invisible li:hover a:hover {
     header nav ul li:hover #invisible {
         width: 90%;
     }
+
+    footer{
+        width:98%;
+    }
 }
 
 @media screen and (max-width:480px) {
@@ -255,5 +280,8 @@ header nav ul li:hover a, #invisible li:hover a:hover {
 
     header nav ul li:hover #invisible {
         width: 90%;
+    }
+    footer{
+        display: none;
     }
 }
