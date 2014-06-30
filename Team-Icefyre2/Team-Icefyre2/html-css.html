@@ -1,20 +1,41 @@
 ﻿<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html lang="en">
 <head>
+    <meta charset="utf-8" />
     <title>Курс по HTML/CSS</title>
-    <link rel="stylesheet" href="styles/stylesheet.css" type="text/css" />
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
+    <link href="styles/demo.css" type="text/css" rel="stylesheet">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <script type='text/javascript' src='scripts/respond.min.js'></script>
 </head>
 <body>
-    <header>
-        <img src="images/programmer.jpg" alt="Logo" id="left"/>
-        <img src="images/quote.png" alt="Nakov's quote" id="middle"/>
-        <nav>
-            <ul>
-                <li>
-                    <a href="index.html">Начало</a>
-                </li>
-                <li>
-                    <a href="#">Курсове</a>
+    <script src="scripts/fallingOnesZeros.js"></script>
+    <div id="wrapper">
+        <header>
+            <div id="banner">
+                <img src="images/baner.png" alt="Baner" />
+            </div>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="index.html">Начало</a>
+                    </li>
+                    <li>
+                        <a href="students.html">Студенти</a>
+                    </li>
+                    <li>
+                        <a href="exams.html">Изпити</a>
+                    </li>
+                    <li>
+                        <a href="team-project.html">Отборен проект</a>
+                    </li>
+                    <li>
+                        <a href="about-the-university.html">За университета</a>
+                    </li>
+                    <li>
+                        <a href="#">Курсове</a>
                         <ul id="invisible">
                             <li>
                                 <a href="c-sharp.html">C#</a>
@@ -26,64 +47,52 @@
                                 <a href="html-css.html">HTML/CSS</a>
                             </li>
                         </ul>
-                </li>
-                <li>
-                    <a href="students.html">Студенти</a>
-                </li>
-                <li>
-                    <a href="exams.html">Изпити</a>
-                </li>
-                <li>
-                    <a href="team-project.html">Отборен проект</a>
-                </li>
-                <li>
-                    <a href="about-the-university.html">За университета</a>
-                </li>
-            </ul>
-        </nav>
-        <img src="images/nakov.png" alt="Nakov" id="right"/>
-    </header>
-    <hr class="middle-line"/>
-    <section>
-        <h2>Курсът по HTML и CSS ни научи на много за нас и писането на код.</h2>
-        <article>
-            <ul>
-                <li>Когато видим лесна задача в домашното</li>
-            </ul>
-            <img src="images/courses/WebFundamentals/when-you-see-an-easy-problem-in-the-homework.gif" alt="Easy task" />
-        </article>
-        <hr />
-        <article>
-            <ul>
-                <li>Мониторът мечта</li>
-            </ul>
-            <img src="images/courses/WebFundamentals/how-we-want-our-monitor-to-be.jpg" alt="Dream monitor" />
-        </article>
-        <hr />
-        <article>
-            <ul>
-                <li>Работата с CSS</li>
-            </ul>
-            <img src="images/courses/WebFundamentals/working-with-css.gif" alt="Working with CSS" />
-        </article>
-        <hr />
-        <article>
-            <ul>
-                <li>Кагато трябва да сърсим грешка в CSS-a</li>
-            </ul>
-            <img src="images/courses/WebFundamentals/trying-to-find-a-mistake-in-css.gif" alt="Finding mistakes in CSS" />
-        </article>
-        <hr />
-        <article>
-            <ul>
-                <li>Когато най-накрая напишиш елегантен CSS</li>
-            </ul>
-            <img src="images/courses/WebFundamentals/when-you-finally-write-a-beautifull-css.gif" alt="Beautifull CSS" />
-        </article>
-        <hr class="middle-line" />
+                    </li>
+                </ul>
+            </nav>
+            </header>
+        <section id="main">
+            <h2>Курсът по HTML и CSS ни научи на много за нас и писането на код.</h2>
+            <article>
+                <ul>
+                    <li>Когато видим лесна задача в домашното</li>
+                </ul>
+                <img src="images/courses/WebFundamentals/when-you-see-an-easy-problem-in-the-homework.gif" alt="Easy task" />
+            </article>
+            <hr />
+            <article>
+                <ul>
+                    <li>Мониторът мечта</li>
+                </ul>
+                <img src="images/courses/WebFundamentals/how-we-want-our-monitor-to-be.jpg" alt="Dream monitor" />
+            </article>
+            <hr />
+            <article>
+                <ul>
+                    <li>Работата с CSS</li>
+                </ul>
+                <img src="images/courses/WebFundamentals/working-with-css.gif" alt="Working with CSS" />
+            </article>
+            <hr />
+            <article>
+                <ul>
+                    <li>Кагато трябва да сърсим грешка в CSS-a</li>
+                </ul>
+                <img src="images/courses/WebFundamentals/trying-to-find-a-mistake-in-css.gif" alt="Finding mistakes in CSS" />
+            </article>
+            <hr />
+            <article>
+                <ul>
+                    <li>Когато най-накрая напишиш елегантен CSS</li>
+                </ul>
+                <img src="images/courses/WebFundamentals/when-you-finally-write-a-beautifull-css.gif" alt="Beautifull CSS" />
+            </article>
         </section>
         <footer>
-            <h2><span>Team Icefyre 2&copy;</span> &#8611; Всяка прилика с действителни лица и събития е умишлена и целенасочена!</h2>
+            <span>Team Icefyre 2</span>
+            <a href="http://www.css-validator.org/" target="_blank"><img src="images/banner-css-valid.png" alt="banner-css" /></a>
+            <a href="http://validator.w3.org/" target="_blank"><img src="images/banner-html-valid.png" alt="banner-html" /></a>
         </footer>
+        </div>
 </body>
 </html>

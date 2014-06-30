@@ -1,20 +1,41 @@
 ﻿<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html lang="en">
 <head>
+    <meta charset="utf-8" />
     <title>Курс по Java</title>
-    <link rel="stylesheet" href="styles/stylesheet.css" type="text/css" />
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
+    <link href="styles/demo.css" type="text/css" rel="stylesheet">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <script type='text/javascript' src='scripts/respond.min.js'></script>
 </head>
 <body>
-    <header>
-        <img src="images/programmer.jpg" alt="Logo" id="left"/>
-        <img src="images/quote.png" alt="Nakov's quote" id="middle"/>
-        <nav>
-            <ul>
-                <li>
-                    <a href="index.html">Начало</a>
-                </li>
-                <li>
-                    <a href="#">Курсове</a>
+    <script src="scripts/fallingOnesZeros.js"></script>
+    <div id="wrapper">
+        <header>
+            <div id="banner">
+                <img src="images/baner.png" alt="Baner" />
+            </div>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="index.html">Начало</a>
+                    </li>
+                    <li>
+                        <a href="students.html">Студенти</a>
+                    </li>
+                    <li>
+                        <a href="exams.html">Изпити</a>
+                    </li>
+                    <li>
+                        <a href="team-project.html">Отборен проект</a>
+                    </li>
+                    <li>
+                        <a href="about-the-university.html">За университета</a>
+                    </li>
+                    <li>
+                        <a href="#">Курсове</a>
                         <ul id="invisible">
                             <li>
                                 <a href="c-sharp.html">C#</a>
@@ -26,64 +47,52 @@
                                 <a href="html-css.html">HTML/CSS</a>
                             </li>
                         </ul>
-                </li>
-                <li>
-                    <a href="students.html">Студенти</a>
-                </li>
-                <li>
-                    <a href="exams.html">Изпити</a>
-                </li>
-                <li>
-                    <a href="team-project.html">Отборен проект</a>
-                </li>
-                <li>
-                    <a href="about-the-university.html">За университета</a>
-                </li>
-            </ul>
-        </nav>
-        <img src="images/nakov.png" alt="Nakov" id="right"/>
-    </header>
-    <hr class="middle-line"/>
-    <section>
-        <h2>Курсът по Java също беше изпълнен с изненади</h2>
-        <article>
-            <ul>
-                <li>Когато за първи път пишеш на Java</li>
-            </ul>
-            <img src="images/courses/java/using-java-for-the-first-time.gif" alt="First time writing Java" />
-        </article>
-        <hr />
-        <article>
-            <ul>
-                <li>Eclipse и кодът</li>
-            </ul>
-            <img src="images/courses/java/eclipse-and-the-code.gif" alt="Eclipse and the code" />
-        </article>
-        <hr />
-        <article>
-            <ul>
-                <li>Наков - когато пише код</li>
-            </ul>
-            <img src="images/courses/java/nakov-writing-java.gif" alt="Nakov writing code" />
-        </article>
-        <hr />
-        <article>
-            <ul>
-                <li>Кагато се опиташ да намериш правилното library</li>
-            </ul>
-            <img src="images/courses/java/trying-to-find-the-correct-lybrary.gif" alt="Correct library" />
-        </article>
-        <hr />
-        <article>
-            <ul>
-                <li>Когато уцелиш правилния регулярен израз от първия път</li>
-            </ul>
-            <img src="images/courses/java/when-you-get-the-corect-regex-on-the-first-try.gif" alt="Right regex" />
-        </article>
-        <hr class="middle-line" />
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <section id="main">
+            <h2>Курсът по Java също беше изпълнен с изненади</h2>
+            <article>
+                <ul>
+                    <li>Когато за първи път пишеш на Java</li>
+                </ul>
+                <img src="images/courses/java/using-java-for-the-first-time.gif" alt="First time writing Java" />
+            </article>
+            <hr />
+            <article>
+                <ul>
+                    <li>Eclipse и кодът</li>
+                </ul>
+                <img src="images/courses/java/eclipse-and-the-code.gif" alt="Eclipse and the code" />
+            </article>
+            <hr />
+            <article>
+                <ul>
+                    <li>Наков - когато пише код</li>
+                </ul>
+                <img src="images/courses/java/nakov-writing-java.gif" alt="Nakov writing code" />
+            </article>
+            <hr />
+            <article>
+                <ul>
+                    <li>Кагато се опиташ да намериш правилното library</li>
+                </ul>
+                <img src="images/courses/java/trying-to-find-the-correct-lybrary.gif" alt="Correct library" />
+            </article>
+            <hr />
+            <article>
+                <ul>
+                    <li>Когато уцелиш правилния регулярен израз от първия път</li>
+                </ul>
+                <img src="images/courses/java/when-you-get-the-corect-regex-on-the-first-try.gif" alt="Right regex" />
+            </article>
         </section>
         <footer>
-            <h2><span>Team Icefyre 2&copy;</span> &#8611; Всяка прилика с действителни лица и събития е умишлена и целенасочена!</h2>
+            <span>Team Icefyre 2</span>
+            <a href="http://www.css-validator.org/" target="_blank"><img src="images/banner-css-valid.png" alt="banner-css" /></a>
+            <a href="http://validator.w3.org/" target="_blank"><img src="images/banner-html-valid.png" alt="banner-html" /></a>
         </footer>
+    </div>
 </body>
 </html>
