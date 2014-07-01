@@ -74,7 +74,7 @@
     <Content Include="java.html" />
     <Content Include="students.html" />
     <Content Include="styles\CSSabout.css" />
-    <Content Include="styles\demo.css" />
+    <Content Include="styles\styles.css" />
     <Content Include="styles\softuni.css" />
     <Content Include="styles\students.css" />
     <Content Include="styles\stylesheet.css" />
