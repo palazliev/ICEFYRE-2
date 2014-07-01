@@ -119,6 +119,11 @@ header nav {
         display: block;
     }
 
+div#social-media-buttons{
+padding-left:4.4%;
+margin:3% auto;
+}
+
 #invisible {
     display: none;
     position: absolute;
