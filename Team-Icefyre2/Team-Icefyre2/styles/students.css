@@ -65,7 +65,7 @@ footer, header, hgroup, menu, nav, section {
 /* Structure */
 
 #web-title{
-	height:40px;
+	height:80px;
 	background-color:#315b74;
 	margin:20px;
 }
@@ -77,22 +77,25 @@ footer, header, hgroup, menu, nav, section {
 	padding-top:10px;
 }
 
-section  .oneRow{
+section.oneRow{
 	display:inline-block;
 	position:inherit;
 	background-color:#FF9C00;
 	border-radius:10px;
-	width:170px;
+	width:100%;
 	margin-left:30px;
 	margin-top:30px;
 }
 
-section  .oneRow h1{
+section.oneRow:nth-of-type(6){
+    padding-bottom:0;
+}
+section.oneRow h1{
 	font-size:13px;
 	margin-left:-15px;
 }
 
-section  .oneRow img{
+section.oneRow img{
 	display:inline-block;
 	width: 30px;
 	height:30px;
@@ -105,7 +108,7 @@ section  .oneRow img{
     border-radius:5px;
 }
 
-section  .oneRow:hover{
+section.oneRow:hover{
 	background-color:#ed831c;
 }
 
